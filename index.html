@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Burger House Moissac</title>
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#hero">Burger House</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#hero">Accueil</a></li>
+          <li class="nav-item"><a class="nav-link" href="#menu">Burgers</a></li>
+          <li class="nav-item"><a class="nav-link" href="#menu1">Desserts</a></li>
+          <li class="nav-item"><a class="nav-link" href="#menu2">Pizza</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">À propos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header id="hero" class="py-5 bg-dark text-light">
+    <div class="container py-5">
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <h1 class="display-4 fw-bold">Burger House Moissac</h1>
+          <p class="lead">Burgers maison, frites croustillantes, ouvert jusqu'à tard.</p>
+          <a href="#menu" class="btn btn-primary btn-lg mt-3">Voir le menu</a>
+        </div>
+        <div class="col-md-6 text-center mt-4 mt-md-0">
+          <img src="img/pexels-rajesh-tp-749235-1600727.png" class="img-fluid rounded shadow" alt="Burger House">
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- MENU BURGERS -->
+  <section id="menu" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Menu Burgers</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card h-100">
+            <img src="img/1500x1500-web-pop-neu-bacon-hamburger-royal-kaese.png" class="card-img-top" alt="Burger Classic">
+            <div class="card-body">
+              <h5 class="card-title">Menu Classic</h5>
+              <p class="card-text">🍔 Burger savoureux, frites croustillantes & boisson fraîche</p>
+              <p class="fw-bold">9,90 €</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card h-100">
+            <img src="img/2025-MCDO-MENU-MCDO-ROYAL-BACON-SOLO.png" class="card-img-top" alt="Burger Gourmet Deluxe">
+            <div class="card-body">
+              <h5 class="card-title">Menu Gourmet</h5>
+              <p class="card-text">🍔 Double burger avec oignons caramélisés et bacon</p>
+              <p class="fw-bold">12,90 €</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card h-100">
+            <img src="img/87692e00086dba169ea14d752575d1b5.png" class="card-img-top" alt="Burger Double Bacon">
+            <div class="card-body">
+              <h5 class="card-title">Menu Burger</h5>
+              <p class="card-text">🍔 Double burger croustillant au bacon grillé</p>
+              <p class="fw-bold">12,90 €</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MENU DESSERTS -->
+  <section id="menu1" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Menu Desserts</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card h-100">
+            <img src="img/orlando-duarte-wUb4GCI7rE4-unsplash.jpg" class="card-img-top" alt="Fondant Chocolat">
+            <div class="card-body">
+              <h5 class="card-title">Menu Fondant Chocolat</h5>
+              <p class="card-text">Gâteau au chocolat fondant avec sauce caramel</p>
+              <p class="fw-bold">4,90 €</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card h-100">
+            <img src="img/natalia-gusakova-xgX5CMTDHHM-unsplash.jpg" class="card-img-top" alt="Gateau Orange">
+            <div class="card-body">
+              <h5 class="card-title">Menu Gateau Orange</h5>
+              <p class="card-text">Gateau avec morceau d'orange</p>
+              <p class="fw-bold">8€</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card h-100">
+            <img src="img/vasylyna-kucherepa-ywjr7BrK6T8-unsplash.jpg" class="card-img-top" alt="Bavarois Chocolat">
+            <div class="card-body">
+              <h5 class="card-title">Menu Bavarois Chocolat</h5>
+              <p class="card-text">Bavarois au chocolat</p>
+              <p class="fw-bold">4,50 €</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MENU PIZZA -->
+  <section id="menu2" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Menu Pizza</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card h-100">
+            <img src="img/artem-mihailov-7wM-Ad3p56E-unsplash.jpg" class="card-img-top" alt="Pizza Margherita">
+            <div class="card-body">
+              <h5 class="card-title">Pizza Margherita</h5>
+              <p class="card-text">Menu Pizza Margherita classique avec sauce tomate, mozzarella et basilic</p>
+              <p class="fw-bold">11,50€</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card h-100">
+            <img src="img/jeremiah-lazo-fko_ZjlMs6E-unsplash.jpg" class="card-img-top" alt="Pizza Raclette">
+            <div class="card-body">
+              <h5 class="card-title">Pizza Raclette</h5>
+              <p class="card-text">Menu Pizza Raclette avec fromage à raclette, pommes de terre, jambon et mozzarella</p>
+              <p class="fw-bold">14,50€</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card h-100">
+            <img src="img/david-foodphototasty-xIqVfW8XUt4-unsplash.jpg" class="card-img-top" alt="Pizza Chorizo">
+            <div class="card-body">
+              <h5 class="card-title">Pizza Chorizo</h5>
+              <p class="card-text">Menu Pizza Choizo</p>
+              <p class="fw-bold">15€</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- A PROPOS -->
+  <section id="about" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-4">À propos</h2>
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <p>
+            🍔 <strong>Burger House Moissac</strong> – Votre destination gourmande ! Depuis 2020,
+            nous craftons des burgers savoureux avec des ingrédients premium. Frites croustillantes,
+            sauces maison et ambiance chaleureuse garanties. Venez vivre l'expérience !
+          </p>
+        </div>
+        <div class="col-md-6 text-center">
+          <img src="img/prithiviraj-a-vDlt9BQND-o-unsplash.jpg" style="width: 450px; height: 500px;" class="img-fluid rounded shadow" alt="Snack">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Horaires & Contact</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <h5>Horaires</h5>
+          <ul class="list-unstyled">
+            <li>Lundi - Vendredi : 11h30 - 14h / 18h - 23h</li>
+            <li>Samedi : 18h - 00h</li>
+            <li>Dimanche : Fermé</li>
+          </ul>
+          <h5 class="mt-3">Adresse</h5>
+          <p>12 Rue des Burgers, 82200 Moissac</p>
+        </div>
+        <div class="col-md-6">
+          <h5>Nous écrire</h5>
+          <form>
+            <div class="mb-3">
+              <label class="form-label">Nom</label>
+              <input type="text" class="form-control" required>
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Email</label>
+              <input type="email" class="form-control" required>
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Message</label>
+              <textarea class="form-control" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Envoyer</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer bg-dark text-light py-4 mt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 mb-3">
+          <h5>Burger House</h5>
+          <p class="small">Burgers maison et frites croustillantes depuis 2020.</p>
+        </div>
+        <div class="col-md-4 mb-3">
+          <h5>Liens rapides</h5>
+          <ul class="list-unstyled small">
+            <li><a href="#hero" class="text-light text-decoration-none">Accueil</a></li>
+            <li><a href="#menu" class="text-light text-decoration-none">Menu</a></li>
+            <li><a href="#contact" class="text-light text-decoration-none">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4 mb-3">
+          <h5>Contact</h5>
+          <p class="small">12 Rue des Burgers, 82200 Moissac<br>Tél: 05 36 02 88 75</p>
+        </div>
+      </div>
+      <hr class="bg-light">
+      <div class="text-center small">
+        © 2025 Copyright: <strong>Burger House Moissac</strong> - Tous droits réservés
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Script personnalisé -->
+  <script src="script.js"></script>
+
+</body>
+</html>
